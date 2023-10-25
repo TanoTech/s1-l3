@@ -1,0 +1,79 @@
+
+h1 {
+    line-height: 1em;
+}
+
+.box h2 {
+    font-weight: 500;
+}
+
+
+header {display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header img {
+    width: 13em;
+    padding-bottom: 0.8em;
+}
+
+
+header p {
+    width: 100%;
+    color: rgb(4, 85, 85);
+    background-color: rgba(255, 183, 0, 0.049);
+    padding: 1.1em;
+    text-align: center;
+    font-size: 1em;
+    margin: 0;
+    border-top: 1.5px solid rgb(255, 183, 0)
+}
+
+main a {
+    color: rgb(18, 157, 157);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1 { 
+    text-align: center;
+}
+
+main figure {
+    margin: 0;
+    margin-bottom: 10px}
+
+main figure figcaption {
+    text-align: center;
+    color: gray;
+}
+
+#featured {
+    color: rgb(210, 32, 32);
+    border-left: 2px solid rgba(255, 183, 0, 0.422) ;
+    padding-left: 1em;
+}
+
+main ul li {
+    margin-bottom: 12px;
+}
+
+main hr {
+    border: 0.6px solid rgba(17, 190, 190, 0.382)
+}
+
+.box{
+ width: 42em;
+}
+
+video {
+    width: 630px;
+}
